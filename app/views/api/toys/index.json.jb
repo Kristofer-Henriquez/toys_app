@@ -1,0 +1,7 @@
+@toys.each do |toy| 
+  {
+  Name: toy.name,
+  Size: toy.size,
+  Image_url: toy.image_url
+}
+end
